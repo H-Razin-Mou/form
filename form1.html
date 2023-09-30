@@ -7,19 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body >
-    <h2>Sign In</h2>
-    <form action="mypage.php" method="get" >
-        <label for="username">Username:</label><br>
-        <input type="text" placeholder="Username" required><br><br>
-        <label for="password">Password:</label><br>
-        <input type="password" name="" id="password" placeholder="Password" required><br>
-        <p>Forgot password?</p>
-        <hr align="left" width="50px">or<hr align="right" width="50px"><br>
-        <button type="submit">Login</button>
-        <p>Don't have an account? <a href="form2.html"> SigUp</a></p>
-        <button type="button"><a href="https://www.google.com/"></a>Continue with Google</button><br><br>
-        <button type="button"><a href="https://www.facebook.com"></a>Continue with Facebook</button><br><br>
-        <button type="button"><a href="https://www.apple.com"></a>Continue with Apple</button>
-    </form>
+    <div class="form">
+        <h1>Sign In</h1>
+        <form action="mypage.php" method="get" >
+            <div class="input">
+                <input type="text" placeholder="Username" required>
+                <input type="password" name="" id="password" placeholder="Password" required>
+            </div>
+
+            <div class="para">
+                <p>Forgot password?</p>
+                <hr class="left">or<hr class="right">
+            </div>
+            
+            <div class="btn">
+                <button type="submit">Login</button>
+            </div>
+            
+            <div class="para2">
+                <p>Don't have an account? 
+                    <a href="form2.html"> SigUp</a>
+                </p>
+            </div>
+            
+            <div class="btn2">
+                <button type="button">
+                    <a href="https://www.google.com/">Continue with Google</a>
+                </button>
+                <button type="button">
+                    <a href="https://www.facebook.com">Continue with Facebook</a>
+                </button>
+                <button type="button">
+                    <a href="https://www.apple.com">Continue with Apple</a>
+                </button>
+            </div>
+            
+        </form>
+    </div>
+    
 </body>
 </html>

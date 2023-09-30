@@ -1,3 +1,33 @@
-body{
-    background-color: #baff8c;
+*{
+    margin:0;
+    padding:0;
 }
+
+.form h1{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    color: #00f;
+}
+
+.input input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(4, 133, 29);
+    color: #00f;
+}
+
+.para .left{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+
+}
+
+.para .right{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
