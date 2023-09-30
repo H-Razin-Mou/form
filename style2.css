@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin-left: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img2.jpg);
+    background-repeat: no-repeat;
+    backdrop-filter: cover;
+}
+
+.page {
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 500px;
+}
+
+.page h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(199, 16, 165);
+}
+
+.input-name input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 40px;
+    background-color: rgb(223, 166, 240);
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 15px 15px 10px 25px;
+
+}
+
+.input-name input::placeholder{
+    color: rgb(182, 158, 158)black;
+}
+
+.input-password input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 40px;
+    background-color: rgb(226, 241, 150);
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 15px 15px 10px 25px;
+
+}
+
+.input-password input::placeholder{
+    color: rgb(182, 158, 158)black;
+}
+
+.check{
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+}
+
+button{
+    width: 95%;
+    height: 40px;
+    background-color: rgb(150, 194, 241);
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 10px; 
+}
+
+.account{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px;
+    padding: 15px 15px 10px 25px;
+ 
+}
+.account p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.account a{
+    font-size: 16px;
+    color: rgb(235, 22, 22);
+}
